@@ -1,0 +1,119 @@
+@font-face {
+  font-family: jeju;
+  src: url(Jeju.ttf);
+}
+* {
+  box-sizing: boarder-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: jeju;
+    background-image: linear-gradient(
+    to left,
+    rgb(255, 255, 255),
+    rgba(221, 202, 202, 0.851),
+    rgb(229, 183, 183)
+  );
+  padding: 10px 150px 5px 150px;
+}
+.NavBar h2 {
+}
+li,
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0 13px;
+  border-bottom: solid 1px black;
+  font-size: 25px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  color: rgba(81, 81, 81, 0.196);
+}
+nav ul li a{
+  color: rgba(19, 19, 19, 0.571);
+}
+.contact {
+  color: rgba(183, 20, 20, 0.947);
+}
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  display: block;
+  align-items: center;
+  padding: 70px 0 40px;
+  max-width: 1200px;
+  background-image: linear-gradient(-43deg, red, brown, black);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.add{
+    display: block;
+    padding: 5px;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgb(192, 25, 25);
+}
+.row1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: black solid 1px; */
+}
+.holder{
+    margin: 0 auto;
+    display: inline-block;
+    background-color: black;
+    height: 300px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+.picz{
+    border-radius: 0.4rem;
+    margin: 5px auto;
+    background-color: red;
+    height: 170px;
+    width: 230px;
+    z-index: 1;
+
+}
+.contactHolder {
+  margin: 100px 40px;
+  height: 200px;
+  background-color: black;
+  padding: 18px;
+  border-radius: 0.7rem;
+}
+.contacts {
+  background-color: rgb(160, 20, 20);
+  padding: 40px;
+  height: 130px;
+  border-radius: 0.7rem;
+}
+.contacts h3 {
+  padding-bottom: 70px;
+}
+.footerContainer{
+  display: flex;
+  margin-bottom: 100px ;
+}
+.BottomNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.BottomNav ul li{
+  display: inline-block;
+  padding: 0 5px;
+}

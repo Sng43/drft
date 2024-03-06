@@ -1,0 +1,227 @@
+@font-face {
+  font-family: jeju;
+  src: url(Jeju.ttf);
+}
+* {
+  box-sizing: boarder-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: jeju;
+}
+.in {
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 255, 255),
+    rgba(221, 202, 202, 0.851),
+    rgb(229, 183, 183)
+  );
+  padding: 10px 150px 5px 150px;
+}
+.NavBar h2 {
+}
+li,
+a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0 13px;
+  border-bottom: solid 1px black;
+  font-size: 25px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  color: rgba(81, 81, 81, 0.196);
+}
+.contact {
+  color: rgba(183, 20, 20, 0.947);
+}
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  display: block;
+  align-items: center;
+  padding: 70px 0 40px;
+  max-width: 1200px;
+  background-image: linear-gradient(-43deg, red, brown, black);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.intro div {
+  padding: 10px 0 10px;
+}
+.brief {
+  font-size: 30px;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+nav ul li a{
+  color: rgba(19, 19, 19, 0.571);
+}
+.brief {
+  color: rgb(107, 107, 107);
+}
+.state {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: black;
+padding: 10px 150px 5px 150px;
+  font-family: jeju;
+  /* font-size: 30px; */
+}
+.state div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid white 2px; */
+    width: 49%;
+    text-align: center;
+}
+.infos{
+  width: 49%;
+    background-color: brown;
+    width: 40%;
+}
+.description h3,
+.description p{
+  font-size: 30px;
+}
+.description h3 {
+  color: rgb(107, 107, 107);
+}
+.description p {
+  margin: 15px 0 30px;
+  color: azure;
+}
+.description .buttons{
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.buttons button{
+padding: 5px 10px;
+font-size: 15px;
+background-color: grey;
+margin: 0 10px;
+height: 30px;
+width: 100px;
+border-radius: 0.9rem;
+}
+.form{
+  padding: 40px ;
+}
+.infos{
+  border-radius: 0.5rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.infos input, .infos textarea{
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid rgb(148, 0, 0);
+  float: left;
+  margin: 10px;
+  width: 80%;
+}
+.infos textarea{
+  height: 80px;
+}
+.infos input{
+  height: 30px;
+}
+.infos button{
+  width: 80px;
+  height: 25px;
+  background-color: rgb(237, 49, 49);
+  border: none;
+  border-radius: 0.3rem;
+  margin: 10px;
+}
+.inSkills{
+  margin: 30px 0 30px;
+  padding: 0 150px 0 150px;
+  height: 330px;
+}
+.skills{
+  font-size: 30px;
+  float: right;
+}
+.skills h4, .skills h5, .skills ul{
+  margin: 20px;
+}
+.skills ul{
+  float: right;
+}
+.ino{
+  padding: 0 150px 0 150px;
+}
+.projects {
+  font-size: 40px;
+  width: 600px;
+}
+.portfolio {
+  width: 100%;
+  margin: 40px 10px 40px 10px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+.portfolio li {
+  display: inline-block;
+  align-items: center;
+  padding: 40px;
+}
+.portfolio li div {
+  margin: 40px 0 40px;
+}
+.imageHold{
+  background-color: black;
+  height: 80px;
+}
+.contactHolder {
+  margin: 100px 40px;
+  height: 200px;
+  background-color: black;
+  padding: 18px;
+  border-radius: 0.7rem;
+}
+.contacts {
+  background-color: rgb(160, 20, 20);
+  padding: 40px;
+  height: 130px;
+  border-radius: 0.7rem;
+}
+.contacts h3 {
+  padding-bottom: 70px;
+}
+.footerContainer{
+  display: flex;
+  margin-bottom: 100px ;
+}
+.BottomNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.BottomNav ul li{
+  display: inline-block;
+  padding: 0 5px;
+}

@@ -1,0 +1,85 @@
+body{
+        background-image: linear-gradient(-43deg, red, brown, black);
+    }
+    .contain{
+    background-image: linear-gradient(-43deg, red, brown, black);
+    padding-top: 100px;
+    margin: auto;
+    /* border: black solid ; */
+    /* padding: 12px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid black ; */
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.log form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    padding-left: 15px;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: rgb(213, 213, 213);
+}
+.log h2{
+    margin-top: 80px;
+    background-image: linear-gradient(-43deg, red, brown, black);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#email{
+    margin: 7px;
+}
+#password{
+    margin: 8px 8px 2px 8px;
+}
+a{
+    text-align: right;
+    width: 250px;
+    color: black;
+    text-decoration: none;
+}
+.log form button{
+    color: azure;
+    padding: 4px 20px;
+    margin: 40px;
+    border: none;
+    border-radius: 0.8rem;
+    background-image: linear-gradient(210deg, rgba(165, 42, 42, 0.877), rgb(128, 37, 37), rgb(140, 117, 117))
+}
+.sign{
+    padding: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(210deg, rgba(165, 42, 42, 0.877), rgb(128, 37, 37), rgb(140, 117, 117));
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.sign h2{
+    color: whitesmoke;
+    margin-bottom: 130px;
+}
+.sign button{
+    padding: 4px 20px;
+    margin: 40px;
+    border: none;
+    border-radius: 0.8rem;
+    background-image: linear-gradient(43deg, grey, white);
+}
